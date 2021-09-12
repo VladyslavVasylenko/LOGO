@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="25" viewBox="0 0 17 25">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #373636;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="left_arrow_copy" data-name="left arrow copy" class="cls-1" d="M1945,1653.62l15.58-12.62,1.42,1.14-15.58,12.62Zm0.14-.02,15.32,12.4,1.4-1.12-15.32-12.41Z" transform="translate(-1945 -1641)"/>
+</svg>

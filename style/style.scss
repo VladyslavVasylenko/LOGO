@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Sansation';
+  src: local('Sansation Regular'), url('../font/sansationregular.woff2') format('woff2'), url('../font/sansationregular.woff') format('woff'), url('../font/sansationregular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sansation bold';
+  src: local('Sansation Bold'), 
+  url('../font/sansationbold.woff2') format('woff2'), 
+  url('../font/sansationbold.woff') format('woff'), 
+  url('../font/sansationbold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Sansation';
+  list-style-type: none;
+  text-decoration: none;
+}
