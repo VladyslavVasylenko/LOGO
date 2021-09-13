@@ -23,3 +23,17 @@
   list-style-type: none;
   text-decoration: none;
 }
+
+fieldset,
+legend,
+.wrapper {
+  transform: rotate(180deg);
+}
+
+legend {
+  padding: 0 10px;
+}
+
+.btn {
+  text-align: center;
+}
