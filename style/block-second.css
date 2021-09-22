@@ -104,13 +104,23 @@
 .second-slide .slick-arrow.slick-next {
   right: 0;
   background: url(../sources/svg/Rightarrow.svg) no-repeat center center;
-  margin-right: 2%;
+  margin-right: 4%;
+  top: 500px;
+  background-color: #3d3d3d;
 }
 
 .second-slide .slick-arrow.slick-prev {
-  left: 0;
+  left: 1230px;
   background: url(../sources/svg/leftarrow.svg) no-repeat center center;
-  margin-left: 2%;
+  top: 500px;
+  -webkit-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+  background-color: #3d3d3d;
+}
+
+.second-slide .slick-arrow.slick-next:hover,
+.second-slide .slick-arrow.slick-prev:hover {
+  background-color: #097e89;
 }
 
 .second-slide__item {
@@ -124,10 +134,67 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+}
+
+.second-slide__item:hover {
+  background-color: #097e89;
 }
 
 .second-slide__image {
   width: 125px;
-  height: 74px;
+  height: 75px;
+  margin-top: 145px;
+}
+
+.second-slide__item-title {
+  font-family: 'Sansation bold';
+  font-size: 24px;
+  font-weight: bold;
+  color: #f7f7f7;
+  text-transform: uppercase;
+  padding-top: 55px;
+}
+
+.second-slide__item-text {
+  width: 300px;
+  height: 50px;
+  margin: 20px 0 30px;
+  font-size: 14px;
+  text-align: center;
+  color: #f7f7f7;
+}
+
+.second-slide__item-btn {
+  width: 140px;
+  height: 30px;
+  border: none;
+  border-radius: 2px;
+  background-color: #959595;
+  margin-bottom: 140px;
+  cursor: pointer;
+  font-size: 12px;
+  text-align: center;
+  color: #f7f7f7;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+
+.second-slide__item-btn:hover {
+  color: black;
+  -webkit-box-shadow: 0px 0px 10px white;
+          box-shadow: 0px 0px 10px white;
+}
+
+.second-slide__item-btn:active {
+  color: black;
+  -webkit-box-shadow: 0px 0px 0px white;
+          box-shadow: 0px 0px 0px white;
 }
 /*# sourceMappingURL=block-second.css.map */
