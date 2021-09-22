@@ -94,11 +94,12 @@
 }
 
 .second-slide .slick-arrow.slick-prev {
-  left: 1230px;
+  right: 0;
   background: url(../sources/svg/leftarrow.svg) no-repeat center center;
   top: 500px;
   transition: all 1s ease-in;
   background-color: #3d3d3d;
+  margin-right: 6.5%;
 }
 
 .second-slide .slick-arrow.slick-next:hover,
